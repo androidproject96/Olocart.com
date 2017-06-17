@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         CollapsingToolbarLayout collapsingToolbarLayout=(CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbarLayout.setTitle("Home");
-        collapsingToolbarLayout.setContentScrimColor(Color.GREEN);
         getStarted();
 
     }
